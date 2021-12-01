@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "buffy"
+name = "buffy-server"
 version = "0.1.0"
 description = "Shared framebuffer chat server"
 authors = ["Ossi Rajuvaara <ossi@robocorp.com>"]
+packages = [
+    { include = "buffy" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
